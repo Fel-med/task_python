@@ -79,17 +79,39 @@ Rules:
 
 Make sure Python is installed on your machine.
 
-To run any exercise, use:
+This project uses one main Python file: `task.py`.
+
+To run the program, use:
 
 ```bash
-python exercise_01_number_comparison.py
+python task.py
 ```
+
+After running the file, a menu will appear:
+
+```text
+Which exercise do you want to run?
+1. Exercise 1 - Number Comparison
+2. Exercise 2 - Tax Calculator
+3. Exercise 3 - BMI Calculator
+4. Exercise 4 - Sorting Numbers
+5. Exercise 5 - Day of the Week
+6. Exercise 6 - Age Group Classifier
+7. Exercise 7 - Vowel or Consonant
+8. Exercise 8 - FizzBuzz
+9. Exit
+```
+
+Enter the number of the exercise you want to run.
 
 Example:
 
-```bash
-python problem_fizzbuzz.py
+```text
+Enter your choice: 3
 ```
+
+This will run the BMI Calculator exercise.
+
 
 ## What I Learned
 
